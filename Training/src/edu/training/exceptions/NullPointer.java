@@ -15,6 +15,7 @@ public class NullPointer {
                     for (Object o : object ) {
                           System.out.println(o);
                     }
+                    
                     // explicitly dereferencing object array
                     object = null;
                    
