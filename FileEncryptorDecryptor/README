@@ -1,0 +1,3 @@
+FileEncryptorDecryptor is a util code to encrypt and decrypt files.
+This internally uses jasypt for encryption and decryption and apache commons-io for IO.
+
