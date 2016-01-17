@@ -1,4 +1,4 @@
-package edu.training.ede;
+package org.aaryas.ede;
 
 import edu.training.ede.decrypt.FileDecryptor;
 import edu.training.ede.encrypt.FileEncryptor;

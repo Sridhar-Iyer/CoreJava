@@ -1,4 +1,4 @@
-package edu.training.ede.decrypt;
+package org.aaryas.ede.decrypt;
 
 import java.io.File;
 import java.io.IOException;
