@@ -1,5 +1,6 @@
 package practice;
 
+// This is an apple interview question
 public class SumWithoutPlus {
 
 	public static void main(String[] args) {
