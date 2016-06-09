@@ -1,5 +1,14 @@
 package practice;
 
+// This is an apple interview question
+
+/*
+
+Write code to sum 2 integers but don't use a + b method.
+Use ++ or --. 
+How you will handle negative numbers.
+
+*/
 public class SumWithoutPlus {
 
 	public static void main(String[] args) {
