@@ -27,15 +27,15 @@ public class NumberJumble {
 	}
 	
 	public static boolean jumbleOrNot(Integer number) {
-		Integer previous_digit = 0;
-		Integer current_digit = 0;
+		Integer previousDigit = 0;
+		Integer currentDigit = 0;
 		boolean flag = true;
 		while(number > 0) {
-			previous_digit = current_digit;
-			current_digit = number % 10;
+			previousDigit = currentDigit;
+			currentDigit = number % 10;
 			number = number / 10;
-			if(previous_digit != 0) {
-				if(previous_digit == (current_digit + 1) || previous_digit == (current_digit -1 )) {
+			if(previousDigit != 0) {
+				if(previousDigit == (currentDigit + 1) || previousDigit == (currentDigit -1 )) {
 					continue;
 				} else {
 					flag = false;
