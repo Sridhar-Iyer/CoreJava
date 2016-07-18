@@ -1,5 +1,13 @@
 package practice;
 
+/**
+ * Amazon Interview question
+ * Implement a data structure with the following APIs
+ *	void add(int) - 3,12,5,6,1
+ *	int getMin() - 1,3,5,6,12
+ *
+ */
+
 import java.util.Set;
 import java.util.TreeSet;
 
