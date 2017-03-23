@@ -8,6 +8,7 @@ public class LinkedList {
 		list.add(1);
 		list.add(2);
 		System.out.println(list.size());
+		System.out.println(list);
 
 	}
 }
@@ -43,6 +44,18 @@ class List {
 		
 	}
 	
+	public String toString() {
+		String output = "";
+		
+		if(head != null) {
+			Node current = head.getNext();
+			while(current != null) {
+				output += "[" + current.getValue().toString() + "]";
+				current = current.getNext();
+			}
+		}
+		return output;
+	}
 	public int size() {
 		return counter;
 	}
