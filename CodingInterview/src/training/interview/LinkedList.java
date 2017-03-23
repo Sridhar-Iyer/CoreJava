@@ -14,5 +14,26 @@ private class Node {
 		next = null;
 		data = dataValue;		
 	}
+	
+	public Node(Object dataValue, Node nextValue) {
+		next = nextValue;
+		data = dataValue;
+	}
+	
+	public Object getValue() {
+		return data;
+	}
+	
+	public void setData(Object dataValue) {
+		data = dataValue;
+	}
+	
+	public Node getNext() {
+		return next;
+	}
+	
+	public void setNext(Node nextValue) {
+		next = nextValue;
+	}
 }
 }
