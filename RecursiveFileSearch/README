@@ -1,6 +1,0 @@
-Recursive File search searches for given keywords recursively in all files starting from the mentioned root folder. 
-
-Same utility written in python is available at
-
-[a link](https://github.com/aaryas/Scripts/blob/master/python/recursive_search.py)
-
