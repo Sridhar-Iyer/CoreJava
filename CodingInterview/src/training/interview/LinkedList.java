@@ -7,9 +7,12 @@ public class LinkedList {
 		List list = new List();
 		list.add(1);
 		list.add(2);
+		list.add(3);
 		System.out.println(list.size());
 		System.out.println(list);
-
+		list.remove(1);
+		System.out.println(list.size());
+		System.out.println(list);
 	}
 }
 
@@ -70,6 +73,24 @@ class List {
 	
 	private void decrementCounter() {
 		counter--;
+	}
+	
+	public boolean remove(int index) {
+		if(index < 1 || index > size() )
+			return false;
+		
+		Node current = head;
+		if(head != null) {
+			for(int i = 0; i < index; i++) {
+				if(current.getNext() == null)
+					return false;
+				current = current.getNext();				
+			}
+			current.setNext(current.getNext().getNext());
+	        decrementCounter();
+	        return true;
+		}
+		return false;
 	}
 	
 	private class Node {
