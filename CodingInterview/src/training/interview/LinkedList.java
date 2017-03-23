@@ -3,6 +3,11 @@ package training.interview;
 public class LinkedList {
 
 	public static void main(String[] args) {
+		
+		List list = new List();
+		list.add(1);
+		list.add(2);
+		System.out.println(list.size());
 
 	}
 }
@@ -32,6 +37,14 @@ class List {
 		}
 		
 		incrementCounter();
+	}
+	
+	public void add(Object data, int index) {
+		
+	}
+	
+	public int size() {
+		return counter;
 	}
 	
 	private static int getCounter() {
