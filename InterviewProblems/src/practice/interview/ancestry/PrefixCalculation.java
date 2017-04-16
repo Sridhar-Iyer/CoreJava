@@ -1,7 +1,9 @@
 package practice.interview.ancestry;
 
 /*
- * Write a method to read values from an array of strings in a specific format and do the specified calculation. Use the follow values in your array:
+ * Write a method to read values from an array of strings
+ * in a specific format and do the specified calculation. 
+ * Use the follow values in your array:
  * +;1;2
  * -;3;4
  * *;5;-6
