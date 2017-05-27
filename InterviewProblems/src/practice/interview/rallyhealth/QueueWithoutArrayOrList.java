@@ -7,7 +7,6 @@ import java.util.Map;
  * Assume in interview land that all lists are broken. Array ArrayList,
  * LinkedList, SkipList Stacks, Queues, Dequeues etc. The Queuue needs to meet
  * the following interface.
- * 
  */
 
 interface Queue<T> {
