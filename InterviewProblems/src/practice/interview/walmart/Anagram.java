@@ -23,7 +23,6 @@ public class Anagram {
 	
 	public static List anagram(List<String> wordList) {
 		List finalList = new ArrayList();
-		Set<List> finalSet = new HashSet();
 		Map<String,List> anagramMap = new HashMap();
 		for(String word: wordList) {
 			char[] chars = word.toCharArray();
