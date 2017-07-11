@@ -19,7 +19,6 @@ public class Anagram {
 		wordList.add("tac");
 		wordList.add("ace");
 		System.out.println(anagram(wordList));
-
 	}
 	
 	public static List anagram(List<String> wordList) {
@@ -34,8 +33,7 @@ public class Anagram {
 				List tempList = anagramMap.get(sortedWord);
 				tempList.add(word);
 				anagramMap.put(sortedWord, tempList);
-				tempList = null;
-				
+				tempList = null;				
 			}else {
 				List<String> anagramList = new ArrayList();
 				anagramList.add(word);
