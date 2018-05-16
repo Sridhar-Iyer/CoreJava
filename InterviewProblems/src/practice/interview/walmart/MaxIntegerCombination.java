@@ -113,7 +113,7 @@ public class MaxIntegerCombination {
 		String n1 = num1 + num2;
 		String n2 = num2 + num1;
 		String bigNumber = "";
-		bigNumber = Integer.parseInt(n1) > Integer.parseInt(n2) ? n1 : n2;
+		bigNumber = Long.parseLong(n1) > Long.parseLong(n2) ? n1 : n2;
 		return bigNumber;
 	}
 
